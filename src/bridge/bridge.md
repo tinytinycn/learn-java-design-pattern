@@ -47,6 +47,7 @@ Abstraction o--> Implementor : aggregation a interface
 Implementor <|.. ConcreteImplementorA
 Implementor <|.. ConcreteImplementorB
 ```
+![bridge](../../img/bridge.png)
 
 ## 适用环境
 - 如果一个系统需要在构件的抽象化角色和具体化角色之间增加更多的灵活性，避免在两个层次之间建立静态的继承联系，通过桥接模式可以使它们在抽象层建立一个关联关系。

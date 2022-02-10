@@ -38,6 +38,8 @@ Component <--* ConcreteComponent : has more children
 
 ```
 
+![composite](../../img/composite.png)
+
 ## 适用环境
 - 想表示对象的部分-整体层次结构。
 - 希望用户忽略组合对象与单个对象的不同，用户将统一地使用组合结构中的所有对象。
