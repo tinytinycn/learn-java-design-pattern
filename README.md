@@ -200,7 +200,7 @@ class 雁群{
 4. [命令](src/command/command.md)
 5. [迭代器](src/iterator/iterator.md)
 6. [中介者](src/mediator/mediator.md)
-7. 备忘录
+7. [备忘录](src/memento/memento2.md)
 8. [观察者](src/observer/observer.md)
 9. [状态](src/state/state.md)
 10. [策略](src/strategy/strategy.md)
