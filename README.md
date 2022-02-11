@@ -20,6 +20,64 @@
 
 各种关系的强弱顺序: `泛化 = 实现 > 组合 > 聚合 > 关联 > 依赖`
 
+## mermaid语法
+
+1. 泛化
+
+```mermaid
+classDiagram
+class A
+class B
+A <|-- B
+```
+
+2. 实现
+
+```mermaid
+classDiagram
+class A
+class B
+A <|.. B
+```
+
+3. 组合
+
+```mermaid
+classDiagram
+class A
+class B
+A "1" *--> "n"  B : has more B
+```
+
+4. 聚合
+
+```mermaid
+classDiagram
+class A
+class B
+class C
+A "1" o--> "1" B : has a B
+A "1" o--> "n" C : has more C
+```
+
+5. 关联
+
+```mermaid
+classDiagram
+class A
+class B
+A "n" <-- "1" B : has more A
+```
+
+6. 依赖
+
+```mermaid
+classDiagram
+class A
+class B
+A <.. B : dependency A
+```
+
 举个例子:
 
 ```mermaid
@@ -136,14 +194,14 @@ class 雁群{
 
 ## 行为型(11个 )
 
-1. 解释器
-2. 模板方法
-3. 责任链
-4. 命令
-5. 迭代器
-6. 中介者
+1. [解释器](src/interpreter/interpreter.md)
+2. [模板方法](src/template/template.md)
+3. [责任链](src/chain/chain-of-responsibility.md)
+4. [命令](src/command/command.md)
+5. [迭代器](src/iterator/iterator.md)
+6. [中介者](src/mediator/mediator.md)
 7. 备忘录
-8. 观察者
-9. 状态
-10. 策略
+8. [观察者](src/observer/observer.md)
+9. [状态](src/state/state.md)
+10. [策略](src/strategy/strategy.md)
 11. 访问者
