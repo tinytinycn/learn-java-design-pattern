@@ -1,6 +1,6 @@
 # Java 设计模式
 
-## 遵循6个原则
+## [遵循6个原则](http://c.biancheng.net/view/8508.html)
 
 1. 单一职责原则, 一个类应该只承担一个职责。承担的职责过多，职责之间可能会相互耦合。
 2. 开放-封闭原则, 对扩展开放，对修改关闭。
@@ -174,7 +174,7 @@ class 雁群{
 
 ![example](img/example.png)
 
-## 创建型(5个)
+## [创建型(5个)](http://c.biancheng.net/view/8462.html)
 
 1. [工厂方法](src/factory/factory.md#工厂方法-factory-method)
 2. [抽象工厂](src/factory/factory.md#抽象工厂-abstract-factory)
@@ -182,7 +182,7 @@ class 雁群{
 4. [原型](src/prototype/prototype.md)
 5. [单例](src/singleton/singleton.md)
 
-## 结构型(7个)
+## [结构型(7个)](http://c.biancheng.net/view/8462.html)
 
 1. [适配器](src/adapter/adapter.md)
 2. [桥接](src/bridge/bridge.md)
@@ -192,7 +192,7 @@ class 雁群{
 6. [享元](src/flyweight/flyweight.md)
 7. [代理](src/proxy/proxy.md)
 
-## 行为型(11个 )
+## [行为型(11个 )](http://c.biancheng.net/view/8462.html)
 
 1. [解释器](src/interpreter/interpreter.md)
 2. [模板方法](src/template/template.md)
