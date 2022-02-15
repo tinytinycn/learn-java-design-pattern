@@ -36,7 +36,6 @@ Client ..> Target
 Target <|-- Adapter
 Adapter --> Adaptee : has a adaptee
 ```
-![adapter01](../../img/adapter01.png)
 
 类适配器：
 ```mermaid
@@ -63,7 +62,7 @@ Adaptee <|-- Adapter
 
 
 ```
-![adapter02](../../img/adapter02.png)
+
 ## 适用环境
 
 - 系统需要使用现有的类，而这些类的接口不符合系统的需要。

@@ -41,8 +41,6 @@ Flyweight <|.. ConcreteFlyweight
 Flyweight <|.. UnsharedConcreteFlyweight
 ```
 
-![flyweight](../../img/flyweight.png)
-
 ## 适用环境
 - 一个系统有大量相同或者相似的对象，由于这类对象的大量使用，造成内存的大量耗费。
 - 对象的大部分状态都可以外部化，可以将这些外部状态传入对象中。

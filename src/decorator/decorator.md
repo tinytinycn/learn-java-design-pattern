@@ -48,7 +48,6 @@ Decorator <|-- ConcreteDecoratorA
 Decorator <|-- ConcreteDecoratorB
 Decorator *-- Component : has a component
 ```
-![decorator](../../img/decorator.png)
 
 ## 适用环境
 - 在不影响其他对象的情况下，以动态、透明的方式给单个对象添加职责。

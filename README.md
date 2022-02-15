@@ -172,8 +172,6 @@ class 雁群{
 
 ```
 
-![example](img/example.png)
-
 ## [创建型(5个)](http://c.biancheng.net/view/8462.html)
 
 1. [工厂方法](src/factory/factory.md#工厂方法-factory-method)
